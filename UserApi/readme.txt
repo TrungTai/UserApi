@@ -15,7 +15,7 @@ Visual Studio launches a browser and navigates to http://localhost:port/api/valu
 ["value1","value2"]
 
 
-### Test API ###
+### How To Test API ###
 - Can use Postman to test API
 - Test "Create User":
    + Method: Post
