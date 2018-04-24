@@ -5,7 +5,7 @@ https://github.com/TrungTai/UserApi.git
 
 
 ### About The Project ###
-This is a project using ASP.Net Core + Web API.
+This is a project using ASP.Net Core + Web API.<br/>
 This project is built from Visual Studio 2017.
 
 
