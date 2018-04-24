@@ -11,22 +11,22 @@ This project is built from Visual Studio 2017.
 
 ### How To Install And Execute The Project ###
 - Open the project (UserApi.sln file) with Visual Studio 2017.
-- In Visual Studio, press Ctrl + F5 to launch the application.
+- In Visual Studio, press Ctrl + F5 to launch the application.<br/>
 Visual Studio launches a browser and navigates to http://localhost:port/api/values
-, where port is a randomly chosen port number. The browser displays the following output:
+<br/>, where port is a randomly chosen port number. The browser displays the following output:<br/>
 ["value1","value2"]
 
 
 ### Fix Bug ###
 #### Issue: 
-On Windows 7 SP1,
+On Windows 7 SP1,<br/>
 When run command: dotnet --info
-Then ouput: Failed to load the dll from [C:\Program Files\dotnet\host\fxr\2.0.7\hostfxr.dll]
-
-Also, when launch a browser and navigate to http://localhost:port/api/values
-Then output: HTTP Error 502.5 - Process Failure
+<br/>Then ouput: Failed to load the dll from [C:\Program Files\dotnet\host\fxr\2.0.7\hostfxr.dll]
+<br/>Also, when launch a browser and navigate to http://localhost:port/api/values
+<br/>Then output: HTTP Error 502.5 - Process Failure
 #### How to fix:
-Install KB2533623 hotfix from Microsoft on Windows 7. Link: https://www.microsoft.com/en-us/download/details.aspx?id=26767
+Install KB2533623 hotfix from Microsoft on Windows 7.<br/>
+Link: https://www.microsoft.com/en-us/download/details.aspx?id=26767
 
 
 ### Test API ###
