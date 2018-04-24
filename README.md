@@ -17,6 +17,17 @@ Visual Studio launches a browser and navigates to http://localhost:port/api/valu
 ["value1","value2"]
 
 
+### Fix Bug ###
+*** Issue: 
+On Windows 7 SP1,
+When run command: dotnet --info
+Then ouput: Failed to load the dll from [C:\Program Files\dotnet\host\fxr\2.0.7\hostfxr.dll]
+Also, when launch a browser and navigate to http://localhost:port/api/values
+Then output: HTTP Error 502.5 - Process Failure
+*** How to fix:
+Install KB2533623 hotfix from Microsoft on Windows 7. Link: https://www.microsoft.com/en-us/download/details.aspx?id=26767
+
+
 ### Test API ###
 - Can use Postman to test API
 - Test "Create User":
