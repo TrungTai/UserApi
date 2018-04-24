@@ -29,7 +29,7 @@ Install KB2533623 hotfix from Microsoft on Windows 7.<br/>
 Link: https://www.microsoft.com/en-us/download/details.aspx?id=26767
 
 
-### Test API ###
+### How To Test API ###
 - Can use Postman to test API
 - Test "Create User":
    + Method: Post
